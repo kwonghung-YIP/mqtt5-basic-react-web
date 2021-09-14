@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mqtt5-basic-react-web/static/css/main.a617e044.chunk.css",
+    "main.js": "/mqtt5-basic-react-web/static/js/main.290bf8e4.chunk.js",
+    "main.js.map": "/mqtt5-basic-react-web/static/js/main.290bf8e4.chunk.js.map",
+    "runtime-main.js": "/mqtt5-basic-react-web/static/js/runtime-main.223835f4.js",
+    "runtime-main.js.map": "/mqtt5-basic-react-web/static/js/runtime-main.223835f4.js.map",
+    "static/js/2.0089f5fc.chunk.js": "/mqtt5-basic-react-web/static/js/2.0089f5fc.chunk.js",
+    "static/js/2.0089f5fc.chunk.js.map": "/mqtt5-basic-react-web/static/js/2.0089f5fc.chunk.js.map",
+    "static/js/3.4fc811a3.chunk.js": "/mqtt5-basic-react-web/static/js/3.4fc811a3.chunk.js",
+    "static/js/3.4fc811a3.chunk.js.map": "/mqtt5-basic-react-web/static/js/3.4fc811a3.chunk.js.map",
+    "index.html": "/mqtt5-basic-react-web/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/mqtt5-basic-react-web/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.0089f5fc.chunk.js.LICENSE.txt": "/mqtt5-basic-react-web/static/js/2.0089f5fc.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/mqtt5-basic-react-web/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.223835f4.js",
+    "static/js/2.0089f5fc.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.290bf8e4.chunk.js"
+  ]
+}
