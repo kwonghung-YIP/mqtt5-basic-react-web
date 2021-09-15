@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import SimpleMqttClient from './SimpleMqttClient';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  //<React.StrictMode>
+    <SimpleMqttClient
+      url="wss://localhost:8001/mqtt"
+      username="user1"
+      password="hm93bqCj6xR562U"
+    />,
+  //</React.StrictMode>,
   document.getElementById('root')
 );
 
