@@ -24,13 +24,13 @@ const reducer = (state, action) => {
         newState = { ...state, mqttClient: null, connected: false };         
     } else if (action.type === "message/received") {
         const { message, topic } = action.payload;
-        console.log(`[${message}] received from topic [${topic}]`);
+        console.log(`message received from topic [${topic}] : [${message}]`);
     } else if (action.type === "packet/sent") {
         const { payload: packet } = action;
         console.log(`package sent to topic [${packet.topic}] : messageId [${packet.messageId}]`);
     } else if (action.type === "packet/received") {
         const { payload: packet } = action;
-        console.log(`package received to topic [${packet.topic}] : messageId [${packet.messageId}]`);
+        console.log(`package received from topic [${packet.topic}] : messageId [${packet.messageId}]`);
     }
     return newState;
 };
@@ -54,7 +54,10 @@ const SimpleMqttClient = (props) => {
     const [ state, dispatch ] = useReducer(reducer,initState);
     const [ logs, setLogs ] = useState([]);
 
+    //const logs = [];
+
     const logmsg = (message) => {
+        //const logs2 = logs.slice()
         logs.push({
             ts: new Date(),
             msg: message,
@@ -87,8 +90,8 @@ const SimpleMqttClient = (props) => {
             });
 
             client.on('message',(topic,message,packet) => {
+                logmsg(`message received : topic - [${topic}], message - [${message}]`);
                 dispatch({ type:"message/received", payload:{ topic: topic, message: message, packet: packet }});
-                logmsg(`message received from topic [${topic}]: ${message}`);
             });
 
             client.on('packetsend',(packet) => {
