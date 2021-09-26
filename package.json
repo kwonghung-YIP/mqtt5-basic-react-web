@@ -1,5 +1,5 @@
 {
-  "name": "mqtt5-basic-react-web2",
+  "name": "mqtt5-basic-react-web",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://kwonghung-yip.github.io/mqtt5-basic-react-web",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",  
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
