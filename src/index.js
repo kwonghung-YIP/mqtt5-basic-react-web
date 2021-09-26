@@ -1,16 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import MQTTClientApp from './components/MQTTClientApp';
 import './index.css';
-import SimpleMqttClient from './SimpleMqttClient';
+
 import reportWebVitals from './reportWebVitals';
+
+//localStorage.debug = 'mqttjs*';
 
 ReactDOM.render(
   //<React.StrictMode>
-    <SimpleMqttClient
-      url="wss://localhost:8001/mqtt"
-      username="user1"
-      password="hm93bqCj6xR562U"
-    />,
+  <MQTTClientApp/>,
   //</React.StrictMode>,
   document.getElementById('root')
 );
