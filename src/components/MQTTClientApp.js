@@ -43,6 +43,7 @@ const MQTTClientApp = (props) => {
             protocolVersion: 5,
             username: username,
             password: password,
+            rejectUnauthorized: false,
         });
 
         client.on('error', (error) => {

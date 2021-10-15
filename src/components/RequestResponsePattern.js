@@ -51,7 +51,7 @@ const RequestResponsePattern = (props) => {
 
     const messageCallback = (topic, message, packet) => {
         //console.log(`message received: ${JSON.stringify(packet)}`);
-        logMsg('message',message);//new String(message));
+        logMsg('message',new String(message));
     }
 
     const packetsendCallback = (packet) => {

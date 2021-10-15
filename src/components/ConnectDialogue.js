@@ -25,6 +25,10 @@ const ConnectDialogue = (props) => {
         url: "ws://localhost:8000/mqtt",  desc: "My local HiveMQ - MQTT over WebSockets, unencrypted, authenticated"  , username: "user1", password: "hm93bqCj6xR562U"
     },{
         url: "wss://localhost:8001/mqtt", desc: "My local HiveMQ - MQTT over WebSockets, encrypted, authenticated"  , username: "user1", password: "hm93bqCj6xR562U"
+    },{
+        url: "ws://kwonghung-yip.asuscomm.com:8000/mqtt", desc: "My local HiveMQ - MQTT over WebSockets, encrypted, authenticated"  , username: "user1", password: "hm93bqCj6xR562U"
+    },{
+        url: "wss://kwonghung-yip.asuscomm.com:8001/mqtt", desc: "My local HiveMQ - MQTT over WebSockets, encrypted, authenticated"  , username: "user1", password: "hm93bqCj6xR562U"
     }];
 
     const defaultProfile = 9;
