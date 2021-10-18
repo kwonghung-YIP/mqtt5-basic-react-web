@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mqtt5-basic-react-web/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/mqtt5-basic-react-web/static/js/main.82b7a911.chunk.js",
-    "main.js.map": "/mqtt5-basic-react-web/static/js/main.82b7a911.chunk.js.map",
+    "main.js": "/mqtt5-basic-react-web/static/js/main.a816ed24.chunk.js",
+    "main.js.map": "/mqtt5-basic-react-web/static/js/main.a816ed24.chunk.js.map",
     "runtime-main.js": "/mqtt5-basic-react-web/static/js/runtime-main.aa5495ed.js",
     "runtime-main.js.map": "/mqtt5-basic-react-web/static/js/runtime-main.aa5495ed.js.map",
     "static/js/2.1b7f6ec1.chunk.js": "/mqtt5-basic-react-web/static/js/2.1b7f6ec1.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.aa5495ed.js",
     "static/js/2.1b7f6ec1.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.82b7a911.chunk.js"
+    "static/js/main.a816ed24.chunk.js"
   ]
 }
